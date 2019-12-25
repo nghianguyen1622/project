@@ -949,31 +949,7 @@
         <div class="error-message"></div>
     </div>
 </div>
-<div id="popup-cart" class="modal fade" role="dialog">
-    <div id="popup-cart-desktop" class="clearfix">
-        <div class="title-popup-cart"><i class="ion ion-md-notifications-outline" aria-hidden="true"></i> Bạn đã thêm <span class="cart-popup-name"></span> vào giỏ hàng</div>
-        <div class="title-quantity-popup"><a href="/cart" title="Giỏ hàng của bạn">Giỏ hàng của bạn có <span class="cart-popup-count"></span> sản phẩm</a></div>
-        <div class="content-popup-cart clearfix">
-            <div class="thead-popup">
-                <div style="width: 55%;" class="text-left">Sản phẩm</div>
-                <div style="width: 15%;" class="text-center">Đơn giá</div>
-                <div style="width: 15%;" class="text-center">Số lượng</div>
-                <div style="width: 15%;" class="text-center">Thành tiền</div>
-            </div>
-            <div class="tbody-popup"></div>
-            <div class="tfoot-popup">
-                <div class="tfoot-popup-1 clearfix">
-                    <div class="pull-left popupcon"><a class="button btn-continue" title="Tiếp tục mua hàng" onclick="$('#popup-cart').modal('hide');"><span><span><i class="fa fa-caret-left" aria-hidden="true"></i> Tiếp tục mua hàng</span></span></a></div>
-                    <div class="pull-right popup-total">
-                        <p>Thành tiền: <span class="total-price"></span></p>
-                    </div>
-                </div>
-                <div class="tfoot-popup-2 clearfix"><a class="button btn-proceed-checkout" title="Thanh toán đơn hàng" href="/checkout"><span>Thanh toán đơn hàng</span></a></div>
-            </div>
-        </div>
-        <a class="quickview-close close-window" href="javascript:" onclick="$('#popup-cart').modal('hide');" title="Đóng"><i class="fa fa-times"></i></a>
-    </div>
-</div>
+
 <div id="myModal" class="modal fade" role="dialog"></div>
 <div class="backdrop__body-backdrop___1rvky"></div>
 <div class="mobile-main-menu">
@@ -1103,28 +1079,43 @@
             </svg>
         <div class="animated infinite zoomIn kenit-alo-circle"></div>
         <div class="animated infinite pulse kenit-alo-circle-fill"></div>
-        <span class="cnt crl-bg count_item_pr">0</span>
+        <span class="cnt crl-bg count_item_pr">1</span>
     </a>
+
     <div class="top-cart-content hidden-md hidden-sm hidden-xs">
-        <ul id="cart-sidebar" class="mini-products-list count_li">
-            <li class="list-item">
-                <ul></ul>
-            </li>
-            <li class="action">
-                <ul>
-                    <li class="li-fix-1">
-                        <div class="top-subtotal">Tổng tiền thanh toán:<span class="price"></span></div>
-                    </li>
-                    <li class="li-fix-2">
-                        <div class="actions clearfix">
-                            <a href="/cart" class="btn btn-primary">Giỏ hàng</a>
-                            <a href="/checkout" class="btn btn-checkout btn-gray">Thanh toán</a>
+        <ul>
+            <div id="popup-cart">
+                <div id="popup-cart-desktop" class="clearfix">
+                    <div class="title-popup-cart"><i class="ion ion-md-notifications-outline" aria-hidden="true"></i> Bạn đã thêm <span class="cart-popup-name"></span> vào giỏ hàng</div>
+                    <div class="title-quantity-popup"><a href="giohang.html" title="Giỏ hàng của bạn">Giỏ hàng của bạn có <span class="cart-popup-count"></span> sản phẩm</a></div>
+                    <div class="content-popup-cart clearfix">
+                        <div class="thead-popup">
+                            <div style="width: 55%;" class="text-left">Sản phẩm</div>
+                            <div style="width: 15%;" class="text-center">Đơn giá</div>
+                            <div style="width: 15%;" class="text-center">Số lượng</div>
+                            <div style="width: 15%;" class="text-center">Thành tiền</div>
+                            <div style="width: 55%;" class="text-left">Laptop Dell Inspiron</div>
+                            <div style="width: 15%;" class="text-center">17.390.000đ</div>
+                            <div style="width: 15%;" class="text-center">1</div>
+                            <div style="width: 15%;" class="text-center">17.390.000đ</div>
                         </div>
-                    </li>
-                </ul>
-            </li>
+                        <div class="tbody-popup"></div>
+                        <div class="tfoot-popup">
+                            <div class="tfoot-popup-1 clearfix">
+                                <div class="pull-left popupcon"><a href="index.html" class="button btn-continue" title="Tiếp tục mua hàng" onclick="$('#popup-cart').modal('hide');"><span><span><i class="fa fa-caret-left" aria-hidden="true"></i> Tiếp tục mua hàng</span></span></a></div>
+                                <div class="pull-right popup-total">
+                                    <p>Thành tiền: <span class="total-price"></span> 17.390.000đ</p>
+                                </div>
+                            </div>
+                            <div class="tfoot-popup-2 clearfix"><a class="button btn-proceed-checkout" title="Thanh toán đơn hàng" href="giohang.html"><span>Thanh toán đơn hàng</span></a></div>
+                        </div>
+                    </div>
+                    <a class="quickview-close close-window" href="javascript:" onclick="$('#popup-cart').modal('hide');" title="Đóng"><i class="fa fa-times"></i></a>
+                </div>
+            </div>
         </ul>
     </div>
+
 </div>
 <div id="menu-overlay" class=""></div>
 </body>
