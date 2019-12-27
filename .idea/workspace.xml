@@ -3,16 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="a63a63bb-b750-45e5-834b-ba37025d3a6d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asus.html" beforeDir="false" afterPath="$PROJECT_DIR$/asus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dell.html" beforeDir="false" afterPath="$PROJECT_DIR$/dell.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/giohang.html" beforeDir="false" afterPath="$PROJECT_DIR$/giohang.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hp.html" beforeDir="false" afterPath="$PROJECT_DIR$/hp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/loginstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/loginstyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forgotpass.html" beforeDir="false" afterPath="$PROJECT_DIR$/forgotpass.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lenovo.html" beforeDir="false" afterPath="$PROJECT_DIR$/lenovo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/macbook.html" beforeDir="false" afterPath="$PROJECT_DIR$/macbook.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanpham.html" beforeDir="false" afterPath="$PROJECT_DIR$/sanpham.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sanpham/LaptopAppleMacbookAir2019-i5-(MVFM2SA-A).html" beforeDir="false" afterPath="$PROJECT_DIR$/sanpham/LaptopAppleMacbookAir2019-i5-(MVFM2SA-A).html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanpham/LaptopDellInspiron5584-N5I5384W.html" beforeDir="false" afterPath="$PROJECT_DIR$/sanpham/LaptopDellInspiron5584-N5I5384W.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sign.html" beforeDir="false" afterPath="$PROJECT_DIR$/sign.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +36,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/WebstormProjects/17130136_Nguyen Van Nghia" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -84,6 +80,10 @@
       <workItem from="1574851724151" duration="813000" />
       <workItem from="1576725106014" duration="16000" />
       <workItem from="1577304427469" duration="3471000" />
+      <workItem from="1577342670674" duration="88000" />
+      <workItem from="1577463248992" duration="1354000" />
+      <workItem from="1577466151439" duration="8760000" />
+      <workItem from="1577475498408" duration="2918000" />
     </task>
     <servers />
   </component>
@@ -102,5 +102,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1577468720101">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1577468720101" />
+    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1577473660544">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1577473660544" />
   </component>
 </project>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Đăng ký | Laptop NLH</title>
+    <title>Laptop NLH</title>
     <script src="js/defer_plus.js" type="text/javascript"></script>
     <script>deferscript('js/polyfill.js', 'polyfill-js', 1)</script>
     <meta name="description" content="">
@@ -12,7 +12,7 @@
     <meta name='revisit-after' content='1 days' />
     <meta name="robots" content="noodp,index,follow" />
     <link rel="icon" href="https://images.cooltext.com/5362564.png"/>
-<!--    <link rel="icon" href="https://bizweb.dktcdn.net/100/348/133/themes/709285/assets/favicon.png?1559638811340" type="image/x-icon" />-->
+    <!--    <link rel="icon" href="https://bizweb.dktcdn.net/100/348/133/themes/709285/assets/favicon.png?1559638811340" type="image/x-icon" />-->
     <meta property="og:type" content="website">
     <meta property="og:title" content="Ant Mobile">
     <meta property="og:image" content="https:https://bizweb.dktcdn.net/100/348/133/themes/709285/assets/logo.png?1559638811340">
@@ -32,18 +32,21 @@
         <div class="row">
             <div class="col-lg-2 col-md-2 col-100-h">
                 <!--                  tạo form đăng nhập-->
-                <div class="tab" style="padding-top: 7px">
-                    <a href="sign.html"> <button class="tab-link active"style="border-radius: 20%; height: 40px;width: 40px;
-                    color: red;background-color: white" title="Đăng nhập ngay!"><i class="fas fa-user" style="height: 0px"></i></button></a>
-                </div>
-                <!--                  kết thúc tọa form đăng nhập-->
 
-                <div class="mobile-cart visible-sm visible-xs">
-                    <a href="giohang.html" title="Giỏ hàng">
-                        <i class="fa fa-cart-arrow-down"></i>
-                        <div class="cart-right"><span class="count_item_pr">0</span></div>
-                    </a>
+                <div class="tab" style="padding-top: 7px">
+                    <a href="sign.html"> <button style="border-radius: 20%; height: 40px;width: 40px;
+                    color: red;background-color: white" title="Đăng nhập ngay!"><i class="fas fa-user"></i></button></a>
                 </div>
+
+
+
+                <!--                  kết thúc tọa form đăng nhập-->
+                <!--                <div class="mobile-cart visible-sm visible-xs">-->
+                <!--                    <a href="giohang.html" title="Giỏ hàng">-->
+                <!--                        <i class="fa fa-cart-arrow-down"></i>-->
+                <!--                        <div class="cart-right"><span class="count_item_pr">0</span></div>-->
+                <!--                    </a>-->
+                <!--                </div>-->
             </div>
             <div class="col-lg-3 col-md-3 add-arrow">
                 <form class="search-bar has-validation-callback" action="/search" method="get" role="search">
@@ -106,57 +109,62 @@
 <script src="js/option-selectors.js" type="text/javascript"></script>
 <script src="js/api.jquery.js?4" type="text/javascript"></script>
 <script src="js/owl.carousel.min.js" type="text/javascript"></script>
-<!--Phần tạo form đăng kí-->
-<br>
-<div class="container">
-    <div class="row">
-        <div class="col-md-offset-2 col-md-8">
-            <form class="form-horizontal">
-                <div class="header">Đăng ký</div>
-                <div class="form-content">
-                    <div class="form-group">
-                        <div class="col-sm-6"> <input class="form-control name" style="width:267px"  placeholder="Họ" type="text">
-                        </div>
-                        <div class="col-sm-6"> <input class="form-control name"  style="width:267px" placeholder="Tên" type="text">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="col-sm-6"> <input class="form-control"  placeholder="Tên người dùng" type="text"> <label class="control-label" ><i class="fa fa-user"></i></label>
-                        </div>
-                        <div class="col-sm-6"> <input class="form-control"  placeholder="Địa chỉ Email" type="email"> <label class="control-label" ><i class="fa fa-envelope"></i></label>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="col-sm-6"> <input class="form-control"  placeholder="Mật khẩu" type="password"> <label class="control-label" ><i class="fa fa-lock"></i></label>
-                        </div>
-                        <div class="col-sm-6"> <input class="form-control"  placeholder="Xác nhận mật khẩu" type="password"> <label class="control-label" ><i class="fa fa-unlock"></i></label>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="col-sm-12"> <select class="form-control" style="width: 37%">
-                            <option value="none" selected="">Chọn giới tính...</option>
-                            <option value="male">Nam</option>
-                            <option value="female">Nữ</option>
-                            <option value="other">Khác</option>
-                        </select>
-                            <a href="forgotpass.html">Quên mật khẩu?</a>
-                            <a href="sign.html">Đăng nhập ngay!</a>
-                        </div>
+<div class="content-login">
+    <div class="left-login">
+        <div class="img-left-login">
+            <img height="600px" width="350px" src="https://cdn.tgdd.vn/Products/Images/42/215699/Feature/samsung-galaxy-note-10-do-480x222-7.jpg">
+        </div>
+    </div>
+
+    <div class="form-login-regeter">
+        <form class="form-login-regeter" action="/action_page.php" method="post">
+            <div class="imgcontainer ">
+                <div class="option">
+                    <div class="w3-content w3-section" style="max-width:780px">
+                        <img class="mySlides" src="https://cdn.tgdd.vn/2019/12/banner/800-170-800x170-90.png" style="width:100%">
+                        <img class="mySlides" src="https://cdn.tgdd.vn/2019/12/banner/reno2f-800-170-800x170-2.png" style="width:100%">
+                        <img class="mySlides" src="https://cdn.tgdd.vn/2019/12/banner/800-170-800x170-90.png" style="width:100%">
+
                     </div>
 
                 </div>
-                <div class="footer clearfix">
-                    <button type="submit" class="btn btn-default">Đăng ký ngay</button>
-                </div>
-            </form>
+            </div>
+
+            <div class=" login-geter">
+                <label ><b>Tên đăng nhập</b></label>
+                <input class=" login-geter" type="text" placeholder="Tên đăng nhập" name="uname" required>
+
+                <label ><b>Email hoặc số điên thoại</b></label>
+                <input class=" login-geter" type="text" placeholder="Email hoặc Số điện thoại" name="uname" required>
+
+                <label ><b>Mật khẩu</b></label>
+                <input class=" login-geter" type="password" placeholder="Nhập mậu khẩu" name="psw" required>
+
+                <label ><b>Nhập lại mật khẩu</b></label>
+                <input class=" login-geter" type="password" placeholder="Nhập mậu khẩu" name="psw" required>
+
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Nhớ mật khẩu
+                </label>
+
+                <button class="login-buton" type="submit">Đăng kí</button>
+
+<!--                <a href="register.html" >Đăng kí</a>-->
+<!--                <div class="container-login" style="background-color:#f1f1f1">-->
+<!--                    &lt;!&ndash;        <button type="button" class="cancelbtn" ><a href="index.html" style="color: #fefefe">Hủy</a></button>&ndash;&gt;-->
+<!--                    <span class="psw">Quên <a href="#">Mật khẩu?</a></span>-->
+<!--                </div>-->
+            </div>
+
+
+        </form>
+    </div>
+    <div class="right-login">
+        <div class="img-left-login">
+            <img height="600px" width="350px" src="https://cdn.tgdd.vn/Products/Images/42/209800/Feature/oppo-reno2-f-480x222-6.jpg">
         </div>
     </div>
 </div>
-
-
-
-
-<!--kết thúc phần tạo form đăng kí-->
 <footer class="footer ">
     <div class="site-footer">
         <div class="container">
@@ -386,31 +394,31 @@
         <div class="error-message"></div>
     </div>
 </div>
-<div id="popup-cart" class="modal fade" role="dialog">
-    <div id="popup-cart-desktop" class="clearfix">
-        <div class="title-popup-cart"><i class="ion ion-md-notifications-outline" aria-hidden="true"></i> Bạn đã thêm <span class="cart-popup-name"></span> vào giỏ hàng</div>
-        <div class="title-quantity-popup"><a href="giohang.html" title="Giỏ hàng của bạn">Giỏ hàng của bạn có <span class="cart-popup-count"></span> sản phẩm</a></div>
-        <div class="content-popup-cart clearfix">
-            <div class="thead-popup">
-                <div style="width: 55%;" class="text-left">Sản phẩm</div>
-                <div style="width: 15%;" class="text-center">Đơn giá</div>
-                <div style="width: 15%;" class="text-center">Số lượng</div>
-                <div style="width: 15%;" class="text-center">Thành tiền</div>
-            </div>
-            <div class="tbody-popup"></div>
-            <div class="tfoot-popup">
-                <div class="tfoot-popup-1 clearfix">
-                    <div class="pull-left popupcon"><a class="button btn-continue" title="Tiếp tục mua hàng" onclick="$('#popup-cart').modal('hide');"><span><span><i class="fa fa-caret-left" aria-hidden="true"></i> Tiếp tục mua hàng</span></span></a></div>
-                    <div class="pull-right popup-total">
-                        <p>Thành tiền: <span class="total-price"></span></p>
-                    </div>
-                </div>
-                <div class="tfoot-popup-2 clearfix"><a class="button btn-proceed-checkout" title="Thanh toán đơn hàng" href="/checkout"><span>Thanh toán đơn hàng</span></a></div>
-            </div>
-        </div>
-        <a class="quickview-close close-window" href="javascript:" onclick="$('#popup-cart').modal('hide');" title="Đóng"><i class="fa fa-times"></i></a>
-    </div>
-</div>
+<!--<div id="popup-cart" class="modal fade" role="dialog">-->
+<!--    <div id="popup-cart-desktop" class="clearfix">-->
+<!--        <div class="title-popup-cart"><i class="ion ion-md-notifications-outline" aria-hidden="true"></i> Bạn đã thêm <span class="cart-popup-name"></span> vào giỏ hàng</div>-->
+<!--        <div class="title-quantity-popup"><a href="giohang.html" title="Giỏ hàng của bạn">Giỏ hàng của bạn có <span class="cart-popup-count"></span> sản phẩm</a></div>-->
+<!--        <div class="content-popup-cart clearfix">-->
+<!--            <div class="thead-popup">-->
+<!--                <div style="width: 55%;" class="text-left">Sản phẩm</div>-->
+<!--                <div style="width: 15%;" class="text-center">Đơn giá</div>-->
+<!--                <div style="width: 15%;" class="text-center">Số lượng</div>-->
+<!--                <div style="width: 15%;" class="text-center">Thành tiền</div>-->
+<!--            </div>-->
+<!--            <div class="tbody-popup"></div>-->
+<!--            <div class="tfoot-popup">-->
+<!--                <div class="tfoot-popup-1 clearfix">-->
+<!--                    <div class="pull-left popupcon"><a class="button btn-continue" title="Tiếp tục mua hàng" onclick="$('#popup-cart').modal('hide');"><span><span><i class="fa fa-caret-left" aria-hidden="true"></i> Tiếp tục mua hàng</span></span></a></div>-->
+<!--                    <div class="pull-right popup-total">-->
+<!--                        <p>Thành tiền: <span class="total-price"></span></p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="tfoot-popup-2 clearfix"><a class="button btn-proceed-checkout" title="Thanh toán đơn hàng" href="/checkout"><span>Thanh toán đơn hàng</span></a></div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <a class="quickview-close close-window" href="javascript:" onclick="$('#popup-cart').modal('hide');" title="Đóng"><i class="fa fa-times"></i></a>-->
+<!--    </div>-->
+<!--</div>-->
 <div id="myModal" class="modal fade" role="dialog"></div>
 <script src="js/appear.js" type="text/javascript"></script>
 <script src="js/cs.script.js" type="text/javascript"></script>
@@ -599,41 +607,72 @@
         });
     });
 </script>
-<div class="support-cart mini-cart hidden-sm hidden-xs">
-    <a class="btn-support-cart" href="giohang.html">
-        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 435.104 435.104" style="enable-background:new 0 0 435.104 435.104;" xml:space="preserve" width="30px" height="30px">
-               <g>
-                  <circle cx="154.112" cy="377.684" r="52.736" data-original="#000000" class="active-path" data-old_color="#Ffffff" fill="#FFFFFF"/>
-                   <path d="M323.072,324.436L323.072,324.436c-29.267-2.88-55.327,18.51-58.207,47.777c-2.88,29.267,18.51,55.327,47.777,58.207     c3.468,0.341,6.962,0.341,10.43,0c29.267-2.88,50.657-28.94,47.777-58.207C368.361,346.928,348.356,326.924,323.072,324.436z" data-original="#000000" class="active-path" data-old_color="#F8F8F8" fill="#FFFFFF"/>
-                   <path d="M431.616,123.732c-2.62-3.923-7.059-6.239-11.776-6.144h-58.368v-1.024C361.476,54.637,311.278,4.432,249.351,4.428     C187.425,4.424,137.22,54.622,137.216,116.549c0,0.005,0,0.01,0,0.015v1.024h-43.52L78.848,50.004     C77.199,43.129,71.07,38.268,64,38.228H0v30.72h51.712l47.616,218.624c1.257,7.188,7.552,12.397,14.848,12.288h267.776     c7.07-0.041,13.198-4.901,14.848-11.776l37.888-151.552C435.799,132.019,434.654,127.248,431.616,123.732z M249.344,197.972     c-44.96,0-81.408-36.448-81.408-81.408s36.448-81.408,81.408-81.408s81.408,36.448,81.408,81.408     C330.473,161.408,294.188,197.692,249.344,197.972z" data-original="#000000" class="active-path" data-old_color="#F8F8F8" fill="#FFFFFF"/>
-                   <path d="M237.056,118.1l-28.16-28.672l-22.016,21.504l38.912,39.424c2.836,2.894,6.7,4.55,10.752,4.608     c3.999,0.196,7.897-1.289,10.752-4.096l64.512-60.928l-20.992-22.528L237.056,118.1z" data-original="#000000" class="active-path" data-old_color="#F8F8F8" fill="#FFFFFF"/>
-               </g>
-            </svg>
-        <div class="animated infinite zoomIn kenit-alo-circle"></div>
-        <div class="animated infinite pulse kenit-alo-circle-fill"></div>
-        <span class="cnt crl-bg count_item_pr">0</span>
-    </a>
-    <div class="top-cart-content hidden-md hidden-sm hidden-xs">
-        <ul id="cart-sidebar" class="mini-products-list count_li">
-            <li class="list-item">
-                <ul></ul>
-            </li>
-            <li class="action">
-                <ul>
-                    <li class="li-fix-1">
-                        <div class="top-subtotal">Tổng tiền thanh toán:<span class="price"></span></div>
-                    </li>
-                    <li class="li-fix-2">
-                        <div class="actions clearfix">
-                            <a href="/cart" class="btn btn-primary">Giỏ hàng</a>
-                            <a href="/checkout" class="btn btn-checkout btn-gray">Thanh toán</a>
-                        </div>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-    </div>
-</div>
+<!--<div class="support-cart mini-cart hidden-sm hidden-xs">-->
+<!--    <a class="btn-support-cart" href="giohang.html">-->
+<!--        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 435.104 435.104" style="enable-background:new 0 0 435.104 435.104;" xml:space="preserve" width="30px" height="30px">-->
+<!--               <g>-->
+<!--                  <circle cx="154.112" cy="377.684" r="52.736" data-original="#000000" class="active-path" data-old_color="#Ffffff" fill="#FFFFFF"/>-->
+<!--                   <path d="M323.072,324.436L323.072,324.436c-29.267-2.88-55.327,18.51-58.207,47.777c-2.88,29.267,18.51,55.327,47.777,58.207     c3.468,0.341,6.962,0.341,10.43,0c29.267-2.88,50.657-28.94,47.777-58.207C368.361,346.928,348.356,326.924,323.072,324.436z" data-original="#000000" class="active-path" data-old_color="#F8F8F8" fill="#FFFFFF"/>-->
+<!--                   <path d="M431.616,123.732c-2.62-3.923-7.059-6.239-11.776-6.144h-58.368v-1.024C361.476,54.637,311.278,4.432,249.351,4.428     C187.425,4.424,137.22,54.622,137.216,116.549c0,0.005,0,0.01,0,0.015v1.024h-43.52L78.848,50.004     C77.199,43.129,71.07,38.268,64,38.228H0v30.72h51.712l47.616,218.624c1.257,7.188,7.552,12.397,14.848,12.288h267.776     c7.07-0.041,13.198-4.901,14.848-11.776l37.888-151.552C435.799,132.019,434.654,127.248,431.616,123.732z M249.344,197.972     c-44.96,0-81.408-36.448-81.408-81.408s36.448-81.408,81.408-81.408s81.408,36.448,81.408,81.408     C330.473,161.408,294.188,197.692,249.344,197.972z" data-original="#000000" class="active-path" data-old_color="#F8F8F8" fill="#FFFFFF"/>-->
+<!--                   <path d="M237.056,118.1l-28.16-28.672l-22.016,21.504l38.912,39.424c2.836,2.894,6.7,4.55,10.752,4.608     c3.999,0.196,7.897-1.289,10.752-4.096l64.512-60.928l-20.992-22.528L237.056,118.1z" data-original="#000000" class="active-path" data-old_color="#F8F8F8" fill="#FFFFFF"/>-->
+<!--               </g>-->
+<!--            </svg>-->
+<!--        <div class="animated infinite zoomIn kenit-alo-circle"></div>-->
+<!--        <div class="animated infinite pulse kenit-alo-circle-fill"></div>-->
+<!--        <span class="cnt crl-bg count_item_pr">1</span>-->
+<!--    </a>-->
+
+<!--    <div class="top-cart-content hidden-md hidden-sm hidden-xs">-->
+<!--        <ul>-->
+<!--            <div id="popup-cart">-->
+<!--                <div id="popup-cart-desktop" class="clearfix">-->
+<!--                    <div class="title-popup-cart"><i class="ion ion-md-notifications-outline" aria-hidden="true"></i> Bạn đã thêm <span class="cart-popup-name"></span> vào giỏ hàng</div>-->
+<!--                    <div class="title-quantity-popup"><a href="giohang.html" title="Giỏ hàng của bạn">Giỏ hàng của bạn có <span class="cart-popup-count"></span> sản phẩm</a></div>-->
+<!--                    <div class="content-popup-cart clearfix">-->
+<!--                        <div class="thead-popup">-->
+<!--                            <div style="width: 55%;" class="text-left">Sản phẩm</div>-->
+<!--                            <div style="width: 15%;" class="text-center">Đơn giá</div>-->
+<!--                            <div style="width: 15%;" class="text-center">Số lượng</div>-->
+<!--                            <div style="width: 15%;" class="text-center">Thành tiền</div>-->
+<!--                            <div style="width: 55%;" class="text-left">Laptop Dell Inspiron</div>-->
+<!--                            <div style="width: 15%;" class="text-center">17.390.000đ</div>-->
+<!--                            <div style="width: 15%;" class="text-center">1</div>-->
+<!--                            <div style="width: 15%;" class="text-center">17.390.000đ</div>-->
+<!--                        </div>-->
+<!--                        <div class="tbody-popup"></div>-->
+<!--                        <div class="tfoot-popup">-->
+<!--                            <div class="tfoot-popup-1 clearfix">-->
+<!--                                <div class="pull-left popupcon"><a href="index.html" class="button btn-continue" title="Tiếp tục mua hàng" onclick="$('#popup-cart').modal('hide');"><span><span><i class="fa fa-caret-left" aria-hidden="true"></i> Tiếp tục mua hàng</span></span></a></div>-->
+<!--                                <div class="pull-right popup-total">-->
+<!--                                    <p>Thành tiền: <span class="total-price"></span> 17.390.000đ</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="tfoot-popup-2 clearfix"><a class="button btn-proceed-checkout" title="Thanh toán đơn hàng" href="giohang.html"><span>Thanh toán đơn hàng</span></a></div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <a class="quickview-close close-window" href="javascript:" onclick="$('#popup-cart').modal('hide');" title="Đóng"><i class="fa fa-times"></i></a>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </ul>-->
+<!--    </div>-->
+
+<!--</div>-->
 <div id="menu-overlay" class=""></div>
+<script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel, 3000); // Change image every 2 seconds
+    }
+</script>
 </body>
 </html>
