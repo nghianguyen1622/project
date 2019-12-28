@@ -62,10 +62,19 @@ img.avatar {
 .container {
     padding: 16px;
 }
-
-span.psw {
+.container-loginadd{
+    /*float: left;*/
+    margin-top: 16px;
+}
+.container-loginadd .adpsw {
+    margin-right:5px ;
     float: right;
-    padding-top: 16px;
+    /*padding-top: 16px;*/
+}
+.cancelbtn{
+    float: left;
+    clear: right;
+
 }
 
 /* Change styles for span and cancel button on extra small screens */
@@ -74,9 +83,7 @@ span.psw {
         display: block;
         float: none;
     }
-    .cancelbtn {
-        width: 100%;
-    }
+
 }
 footer{
     float: left;

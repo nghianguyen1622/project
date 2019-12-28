@@ -4,10 +4,13 @@
     <list default="true" id="a63a63bb-b750-45e5-834b-ba37025d3a6d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/loginstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/loginstyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forgotpass.html" beforeDir="false" afterPath="$PROJECT_DIR$/forgotpass.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macbook.html" beforeDir="false" afterPath="$PROJECT_DIR$/macbook.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanpham/LaptopAppleMacbookAir2019-i5-(MVFM2SA-A).html" beforeDir="false" afterPath="$PROJECT_DIR$/sanpham/LaptopAppleMacbookAir2019-i5-(MVFM2SA-A).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanpham.html" beforeDir="false" afterPath="$PROJECT_DIR$/sanpham.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanpham/LaptopAppleMacbookAir2019-i5-(MVFM2SA-A).html" beforeDir="false" afterPath="$PROJECT_DIR$/sanpham/Macbockctsp.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sign.html" beforeDir="false" afterPath="$PROJECT_DIR$/sign.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,6 +87,8 @@
       <workItem from="1577463248992" duration="1354000" />
       <workItem from="1577466151439" duration="8760000" />
       <workItem from="1577475498408" duration="2918000" />
+      <workItem from="1577478679676" duration="537000" />
+      <workItem from="1577519571572" duration="14461000" />
     </task>
     <servers />
   </component>
