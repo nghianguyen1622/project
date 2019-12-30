@@ -4,12 +4,23 @@
     <list default="true" id="a63a63bb-b750-45e5-834b-ba37025d3a6d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/asus.html" beforeDir="false" afterPath="$PROJECT_DIR$/asus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/plugin.scss.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/plugin.scss.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dell.html" beforeDir="false" afterPath="$PROJECT_DIR$/dell.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forgotpass.html" beforeDir="false" afterPath="$PROJECT_DIR$/forgotpass.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/giohang.html" beforeDir="false" afterPath="$PROJECT_DIR$/giohang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gioithieu.html" beforeDir="false" afterPath="$PROJECT_DIR$/gioithieu.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hp.html" beforeDir="false" afterPath="$PROJECT_DIR$/hp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lenovo.html" beforeDir="false" afterPath="$PROJECT_DIR$/lenovo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lienhe.html" beforeDir="false" afterPath="$PROJECT_DIR$/lienhe.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/macbook.html" beforeDir="false" afterPath="$PROJECT_DIR$/macbook.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sanpham.html" beforeDir="false" afterPath="$PROJECT_DIR$/sanpham.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanpham/LaptopDellInspiron5584-N5I5384W.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanpham/Macbockctsp.html" beforeDir="false" afterPath="$PROJECT_DIR$/sanpham/Macbockctsp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sign.html" beforeDir="false" afterPath="$PROJECT_DIR$/sign.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thanhtoan.html" beforeDir="false" afterPath="$PROJECT_DIR$/thanhtoan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc.html" beforeDir="false" afterPath="$PROJECT_DIR$/tintuc.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +97,8 @@
       <workItem from="1577466151439" duration="8760000" />
       <workItem from="1577475498408" duration="2918000" />
       <workItem from="1577478679676" duration="537000" />
-      <workItem from="1577519571572" duration="15410000" />
+      <workItem from="1577519571572" duration="15473000" />
+      <workItem from="1577706911986" duration="11745000" />
     </task>
     <servers />
   </component>

@@ -179,12 +179,12 @@
     float:left;
     margin:0 2.5px;
     width:28px;
-    background:#f30;
+    /*background:#f30;*/
     text-align:center;
     height:28px;
     font-size:14px;
     line-height:26px;
-    color:#fff;
+    color:#333;
     border-radius:0;
     border:1px solid #f30 !important;
     text-decoration:none;
@@ -211,9 +211,9 @@
     color:#555555
 }
 .pagination .page-item.active .page-link {
-    background-color:#fff;
+    background-color:#f30;
     border-color:#f30;
-    color:#f30
+    color:#fff
 }
 header {
     background:#fff
